@@ -1,0 +1,15 @@
+**/*.pyc
+__pycache__
+
+.venv
+.dockerignore
+
+.pytest_cache
+
+poetry.lock
+pyproject.toml
+
+README.md
+
+.gitignore
+.git
