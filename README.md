@@ -1,6 +1,12 @@
 # BurgerAPI 🍔
+Python based web scraping project. Project scrape, organise and store data from https://www.mcdonalds.com/ua/uk-ua/eat/fullmenu.html.
 
----
+## 🛠 Tech Stack
+
+- **API:** FastAPI  
+- **Data Validation:** Pydantic  
+- **Scraping/Parsing:** Requests, BeautifulSoup4  
+- **Deployment:** Docker
 
 ## 🚀 Deployment
 
@@ -66,15 +72,6 @@ GET /products/{product_key}/{product_field}
 |------------------|----------|-----------------------------------------------|
 | `product_key`    | `string` | **Required.** Product name as in the database |
 | `product_field`  | `string` | **Required.** Product field to return         |
-
----
-
-## 🛠 Tech Stack
-
-- **API:** FastAPI  
-- **Data Validation:** Pydantic  
-- **Scraping/Parsing:** Requests, BeautifulSoup4  
-- **Deployment:** Docker
 
 ---
 
